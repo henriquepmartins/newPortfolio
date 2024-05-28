@@ -1,7 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
@@ -116,7 +115,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 7.1rem 0 2rem;
+  padding: 6rem 0 2rem;
 }
 
 .section__title {
@@ -190,9 +189,6 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  .section {
-    padding: 2rem 0 4rem;
-  }
   body {
     margin: 0 0 var(--header-height) 0;
   }
